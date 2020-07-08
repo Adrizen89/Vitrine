@@ -43,28 +43,33 @@ header{
     }
 }
 main{
+    
+        h2{
+        font-size: 1em;
+        margin: 50px 0 20px 100px;
+    }
+    .border{
+        width: 20%;
+        border-top: 1px solid orange;
+        margin: 50px 0 20px 100px;
+    }
+    
+    
     article{
         display: flex;
         justify-content: center;
         ul{
             margin-right: 200px;
             li{
-                font-size: 1.5em;
+                font-size: 1.7em;
             }
         }
         img{
             width: 20%;
             margin-right: 200px;
-            z-index: 10000;
+
+            box-shadow: 70px 0px 0px 30px orange;
         }
-        .ombre{
-            width: 30%;
-            height: 250px;
-            background-color: orange;
-            position: absolute;
-            z-index: 1;
-            top: 370px;
-            right: 100px;
-        }
+        
     }
 }
