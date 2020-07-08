@@ -35,6 +35,15 @@ header .sous-titre .big {
   text-align: center;
 }
 
+main h2 {
+  font-size: 1em;
+  margin: 50px 0 20px 100px;
+}
+main .border {
+  width: 20%;
+  border-top: 1px solid orange;
+  margin: 50px 0 20px 100px;
+}
 main article {
   display: flex;
   justify-content: center;
@@ -43,21 +52,12 @@ main article ul {
   margin-right: 200px;
 }
 main article ul li {
-  font-size: 1.5em;
+  font-size: 1.7em;
 }
 main article img {
   width: 20%;
   margin-right: 200px;
-  z-index: 10000;
-}
-main article .ombre {
-  width: 30%;
-  height: 250px;
-  background-color: orange;
-  position: absolute;
-  z-index: 1;
-  top: 370px;
-  right: 100px;
+  box-shadow: 70px 0px 0px 30px orange;
 }
 
 /*# sourceMappingURL=style.css.map */
